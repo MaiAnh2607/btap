@@ -1,0 +1,52 @@
+.form {
+    width: 400px;
+    border: 1px solid #4CAF50;
+    border-radius: 12px; /* Bo góc */
+    padding: 30px;
+    margin: 50px auto; /* Căn giữa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Màu nền nhẹ */
+}
+
+.form h2 {
+    text-align: center;
+    color: #2E7D32; /* Màu tiêu đề */
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block; 
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; /* Đảm bảo padding không phá vỡ kích thước */
+}
+
+.form input:focus {
+    border-color: #4CAF50; /* Đổi màu khi focus */
+    outline: none;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Hiệu ứng hover */
+}
+
+.form button:hover {
+    background-color: #45a049; /* Màu khi hover */
+}
